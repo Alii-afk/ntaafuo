@@ -1,0 +1,162 @@
+.tag-line
+{
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.btn-sign
+{
+  background-color: #2D7395
+}
+.login-form
+{
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.border-r
+{
+    border-radius: 0.5rem !important;
+}
+.text-blue{
+  color: #2D7395;
+}
+.text-green{
+  background-color: #545C45;
+}
+.landing-button{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 326px;
+height: 79px;
+border-radius: 10px;
+background: #F3685F;
+}
+.main-line
+{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.under-main-line
+{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.tag-2-line
+{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .landing-button{
+  font-size: 16px;
+  width: 140px;
+  height: 59px;
+  }
+  .main-d
+  {
+    padding-top: 40px;
+  }
+   .main-line
+    {
+    font-size: 22px;
+    }
+    .under-main-line
+    {
+    font-size: 18px;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 425px) {
+   .main-line
+    {
+    font-size: 18px;
+    }
+    .under-main-line
+    {
+    font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .log-prop
+  {
+          width: 90%;
+    padding: 0px !important;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .landing-button{
+    font-size: 24px;
+    width: 226px;
+    height: 69px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .landing-button{
+    font-size: 32px;
+    width: 326px;
+    height: 79px;
+    }
+   
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .tag-line
+{
+    width: 70%;
+    margin-top: 15px;
+}
+.login-logo
+{
+    padding-top: 60px;
+}
+ .txt-mar
+            {
+                padding-top: 10px !important;
+                margin-bottom: 10px !important;
+            }
+   
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

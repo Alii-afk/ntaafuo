@@ -1,0 +1,816 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+.container {
+  display: grid;
+  grid-template-columns: 305px 305px 305px;
+  grid-gap: 35px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f5f5f5;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+.back-div{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.back-btn{
+    background-color: #FF5977;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.form-css
+{
+  padding: 0px;
+  margin: 0px;
+}
+.containers{
+  display: grid;
+  grid-template-columns: 305px;max-width: 768px
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+.emptySearch
+{
+  color: #FF0303;r
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+padding-left: 30%;
+padding-right: 30%;
+}
+
+.emptySearch2
+{
+  color: #FF0303;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+margin-top: 30px;
+padding-left: 40%;
+padding-right: 40%;
+}
+
+.empty{
+text-align: center;
+padding-top: 50px;
+background-color: #f5f5f5;
+}
+.NotFoundimage
+{
+  height: 160px;
+  width: 160px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.white-icon {
+  color: white;
+}
+.card {
+  height: 22rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  width: 305px;
+  position: relative;
+}
+
+.card__name {
+  margin-top: 15px;
+  color: #000;
+  font-family: Nokora;
+  font-size: 22.998px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.card__name2
+{
+    color: #000;
+font-family: Nokora;
+font-size: 16px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+margin-left: 5px;
+margin-right: 5px;
+text-align: center;
+}
+
+.card__image {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+.searchbt
+{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #EC4C60;
+}
+
+.card__image2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .card__image3 {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+  }
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  font: 700 1.2rem 'Roboto Slab', sans-serif;
+  letter-spacing: 0.05rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 220px;
+  height: 74px;
+  border-radius: 15px;
+}
+
+.btn:focus {
+  outline: 2px dotted #55d7dc;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  font-size: 1.2em;
+}
+.headsect
+{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+.tag-3-line
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.tag-5-line
+{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.bg-c{
+    background-color: #545C45 !important;
+    margin: -3px;
+}
+.mainCont
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.searchMainDiv
+{
+    width: auto;
+    height: 107px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.searchsubDiv
+{
+    width: auto;
+    height: 67px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,.125);
+    background: #FFF;
+    display: flex; 
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.select-with-right-border {
+    border: none;
+    border-right: 1px solid #ccc; 
+    padding: 5px; 
+    width: auto; 
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  outline: none;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.select-with-no-border {
+  border: none;
+  padding: 5px; 
+  width: auto; 
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+outline: none;
+padding-left: 30px;
+padding-right: 50px;
+
+}
+
+select:focus {
+  outline: none;
+  border: none;
+  border-color: #ffffff; /* Change to your desired color */
+  box-shadow: #ffffff;
+}
+
+.circle-images-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 150px; /* Adjust the container height as needed */
+}
+
+.circle-image {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 10px; /* Gap between images */
+}
+.circle-image2 {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 10px; /* Gap between images */ /* Gap between images */
+    margin-left: -15px;
+}
+
+.sticky-button {
+    position: absolute;
+    bottom: 0;
+    left: 43.5%; /* Center horizontally */
+    transform: translateX(-50%);
+}
+.draw-border
+{
+  color: #FFF;
+  text-align: center;
+  font-family: Nokora;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 240px;
+  height: 100px;
+  border-radius: 5px;
+  background: #F56E6E;
+  padding: 12px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.draw-border-lessor
+{
+  color: #FFF;
+  text-align: center;
+  font-family: Nokora;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 240px;
+  height: 100px;
+  border-radius: 5px;
+  background: #5D8142;
+  padding: 12px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy-span
+{
+  color: #44729E;
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#referalLabel1
+{
+  overflow: hidden;
+}
+
+.input-general-label
+  {
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+    width: auto;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid #B0B0B0;
+    background: rgba(180, 174, 174, 0.00);
+    padding-left: 10px;
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 600px) {
+     .class-cour-8
+        {
+            height: 185px;
+        }
+    } 
+    
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container 
+  {
+    grid-template-columns: 100%;
+    grid-gap: 0px;
+  }
+  .form-css
+  {
+    text-align: center;
+  }
+  .small-cs
+  {
+          margin-bottom: 40px;
+  }
+  .mainCont
+{
+    padding-top: 0px;
+}
+
+
+  
+  .card {
+    width: 305px;
+    margin-top: 50px;
+        height: 20.5rem;
+  }
+  .searchsubDiv
+  {
+    width: 282px;
+    height: auto;
+    border-radius: 30px;
+    gap: 5px; 
+    margin: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .select-with-right-border 
+  { 
+    width: 100%; 
+    font-size: 16px;
+    border: none !important;
+    margin: 4px;
+    margin-top: 8px;
+    text-align: center;
+  }
+  .select-with-no-border 
+  { 
+    width: 100%; 
+    font-size: 16px;
+    margin: 4px;
+   text-align: center;
+   padding-left: 0px;
+   padding-right: 30px;
+  }
+  .searchbt {
+    margin: 4px;
+}
+  .searchMainDiv
+  {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .circle-image {
+    width: 150px;
+    height: 150px;
+  }
+  .circle-image2 
+  {
+    width: 150px;
+    height: 150px;
+  }
+  .card__image3 
+  {
+    width: 150px;
+    height: 150px;
+  }
+  .card__image {
+    height: 150px;
+    width: 150px;
+    margin-top: 0px;
+  }
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        grid-template-columns: 280px 280px;
+        grid-gap: 15px;
+      }
+      
+      .card {
+        width: 280px;
+        margin-top: 20px;
+      
+      }
+      .searchsubDiv
+        {
+            width: auto;
+            height: 67px;
+            border-radius: 30px;
+            gap: 5px; 
+        }
+        .select-with-right-border { 
+            width: auto; 
+            font-size: 18px;
+        }
+
+        .select-with-no-border { 
+          width: auto; 
+          font-size: 18px;
+      }
+
+        .searchMainDiv
+        {
+            width: auto;
+            height: 87px;
+            border-radius: 10px;
+        }
+        .circle-image {
+          width: 130px;
+          height: 130px;
+        }
+        .circle-image2 
+        {
+          width: 130px;
+          height: 130px;
+        }
+        .card__image3 
+        {
+          width: 130px;
+          height: 130px;
+        }
+  }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+     .txt-mar
+            {
+                padding-top: 10px !important;
+                margin-bottom: 10px !important;
+            }
+              .emptySearch
+{
+font-size: 25px;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+.emptySearch2
+{
+font-size: 25px;
+padding-left: 3%;
+padding-right: 3%;
+}
+    .headsect
+{
+    padding-top: 0px !important;
+   
+}
+   .form-css
+  {
+    text-align: center;
+  }
+  .roomie-1
+  {
+       margin: auto;
+        margin-top: 20px;
+  }
+  .tag-line
+{
+    width: 70%;
+    margin-top: 15px;
+}
+   .searchMainDiv
+  {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .searchsubDiv
+  {
+    width: 282px;
+    height: auto;
+    border-radius: 30px;
+    gap: 5px; 
+    margin: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .select-with-right-border 
+  { 
+    width: 100%; 
+    font-size: 16px;
+    border: none !important;
+    margin: 4px;
+    margin-top: 8px;
+    text-align: center;
+  }
+  .select-with-no-border 
+  { 
+    width: 100%; 
+    font-size: 16px;
+    margin: 4px;
+   text-align: center;
+   padding-left: 0px;
+   padding-right: 30px;
+  }
+  .searchbt {
+    margin: 4px;
+    }
+    
+      .tag-3-line
+{
+    font-size: 22px;
+}
+.refine-cs
+{
+    padding-top: 0rem;
+}
+.tag-5-line
+{
+        font-size: 18px;
+}
+  
+
+ }
+ 
+   @media only screen and (max-width: 1024px) {
+        .back-div{
+    padding-left: 10px;
+      }
+  }  
+ 
+   /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 900px) {
+        .back-div{
+    text-align: center;
+    padding-left: 0px;
+      }
+  }  
+ 
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 900px) {
+    .container {
+        grid-template-columns: 280px 280px 280px;
+        grid-gap: 25px;
+      }
+      
+      .card {
+        width: 280px;
+      }
+
+      .card {
+        width: 305px;
+      }
+
+      .circle-image {
+        width: 130px;
+        height: 130px;
+      }
+      .circle-image2 
+      {
+        width: 130px;
+        height: 130px;
+      }
+      .card__image3 
+      {
+        width: 130px;
+        height: 130px;
+      }
+  } 
+
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 1024px) {
+        .circle-image {
+          width: 150px;
+          height: 150px;
+        }
+        .circle-image2 
+        {
+          width: 150px;
+          height: 150px;
+        }
+        .card__image3 
+        {
+          width: 150px;
+          height: 150px;
+        }
+    } 
+    
+    .class-cour-1
+    { 
+        width: 100%; 
+        height:200px; 
+        overflow: hidden;
+    }
+    .class-cour-2
+    {
+        border-radius: 15px;
+    }
+    .class-cour-3
+    { 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover;
+    }
+    .class-cour-4
+    {
+        display: inline-block; 
+        width: 30px; 
+        height: 30px; 
+        color: black; 
+        background-color: white; 
+        padding: 8px 10px; 
+        border-radius: 50%; 
+        font-weight: bold; 
+        font-size: 12px; 
+        transition: 0.6s ease; 
+        text-align:center;
+    }
+    .class-cour-5
+    {
+        font-family: 'Circular', sans-serif; 
+        font-size: 20px; 
+        line-height: 30px; 
+        font-weight:400; 
+        text-decoration: none; 
+        color:black; 
+        margin-top:5px;
+    }
+    .class-cour-5:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: inherit; /* Inherit the color from the parent element */
+    /* Add any other properties you want to reset on hover */
+}
+    .class-cour-6
+    {
+        font-family: 'Circular', sans-serif; 
+        font-size: 24px; 
+        line-height: 30px; 
+        color: #222222 ;
+        font-weight:400; 
+        text-decoration: none; 
+        color:black; 
+        margin:0px; 
+        margin-top:5px; 
+        padding: 0px;
+    }
+    .class-cour-7
+    {
+        font-family: 'Circular', sans-serif; 
+        font-size: 20px; 
+        line-height: 30px; 
+        font-weight:400; 
+        text-decoration: none; 
+        color: #868686; 
+        margin:0px; 
+        margin-top:5px; 
+        padding: 0px;
+    }
+    .class-cour-8
+    {
+        width: 100%; 
+        overflow: hidden;
+        padding-top: 10px; 
+    }
+    .roomie-1
+    {
+        width: 90%; 
+        height: auto !important; 
+        background-color: #F5F5F5 !important; 
+        border: none !important; 
+    }
+    .roomie-2
+    {
+        width: 100%; 
+        height:250px;  
+        overflow: hidden;
+    }
+    .roomie-3
+    {
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        border-radius: 20px;
+    }
+    .roomie-4
+    {
+        width: 100%; 
+        overflow: hidden;
+        padding-top: 15px;
+    }
+    .roomie-5
+    {
+        font-family: 'Circular', sans-serif; 
+        font-size: 20px; 
+        line-height: 30px; 
+        font-weight:400; 
+        text-decoration: none; 
+        color:black; 
+        margin-top:5px;
+        
+    }
+    .roomie-5:hover {
+    text-decoration: none; /* Remove underline on hover */
+    color: inherit; /* Inherit the color from the parent element */
+    /* Add any other properties you want to reset on hover */
+}
+    .roomie-6
+    {
+        font-family: 'Circular', sans-serif; 
+        font-size: 24px; 
+        line-height: 30px; 
+        color: #222222;
+        font-weight:400; 
+        text-decoration: none; 
+        color: black; 
+        margin: 0px; 
+        margin-top: 5px; 
+        padding: 0px;
+    }
+    .roomie-7
+    {
+        font-family: 'Circular', sans-serif; 
+        font-size: 20px; 
+        line-height: 30px; 
+        font-weight:400; 
+        text-decoration: none; 
+        color: #868686; 
+        margin: 0px; 
+        margin-top: 5px;
+        padding: 0px; 
+    }

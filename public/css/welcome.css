@@ -1,0 +1,175 @@
+html {
+    font-size: 18px;
+}
+
+.featured_org {
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+}
+
+.featured-org__heading {
+    font-size: rem-calc(25);
+}
+
+p {
+    background-color: #f6f9fc;
+}
+
+.bubble-item {
+    box-shadow: 0px 0px 10px #ccc;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100%;
+    float: left;
+    height: 4rem;
+    overflow: hidden;
+    width: 4rem;
+    margin: 1rem;
+    transition: all 250ms ease-in-out;
+}
+
+.bubble-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #ccc;
+}
+
+.item1 {
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+    margin-left: 3rem;
+    border: 3px solid white;
+}
+
+.item2 {
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 0;
+    border: 3px solid white;
+}
+
+.item3 {
+    height: 6rem;
+    width: 6rem;
+    margin-left: 4rem;
+    margin-top: 0;
+    border: 3px solid white;
+}
+
+.item4 {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 0.9rem;
+    margin-left: 0.9rem;
+    border: 3px solid white;
+}
+
+
+.item5 {
+    margin-top: -4rem;
+    margin-left: -1rem;
+    width: 6rem;
+    height: 6rem;
+    border: 3px solid white;
+}
+
+.item6 {
+    margin-top: -3rem;
+    margin-left: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid white;
+}
+
+.item7 {
+    margin-top: -3rem;
+    margin-left: 1rem;
+    width: 7rem;
+    height: 7rem;
+    border: 3px solid white;
+}
+
+.item8 {
+    margin-top: -0.5rem;
+    margin-left: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border: 3px solid white;
+}
+
+
+
+
+.gallery__wrapper {
+    display: inline-block;
+}
+
+.wrapper {
+    animation: galleryInMotion 100s infinite;
+}
+
+.gallery-cluster {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 35rem;
+}
+
+.gallery {
+    padding: 0.5rem 0;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+/* @keyframes galleryInMotion {
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-1620px);
+    } 
+} */
+
+@keyframes circleMove1 {
+    0% {}
+
+    20% {
+        transform: translate3d(1px, 2px, 0);
+    }
+
+    40% {}
+
+    60% {
+        transform: translate3d(-2px, -1px, 0);
+    }
+
+    80% {}
+
+    100% {
+        transform: translate3d(1px, 1px, 0);
+    }
+}
+
+
+
+.paused {
+    -webkit-animation-play-state: paused;
+}
+
+.mb-perc {
+    margin-bottom: 35vh;
+    margin-top: 5vh;
+}

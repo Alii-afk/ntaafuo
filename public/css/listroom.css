@@ -1,0 +1,141 @@
+.list-tag
+{
+    color: #070707;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.row-main-3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.column-3 {
+    border-radius: 10px;
+    border: 2px dashed #000;
+    background: rgba(180, 174, 174, 0.00);
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 3px;
+  }
+  .hidden-input {
+    display: none;
+  }
+  .image-preview1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 150px; /* Adjust width and height as needed */
+    height: 110px;
+    overflow: hidden; /* Ensures the image stays within the circular shape */
+    background-color: #f0f0f0; /* Add a background color if needed */
+}
+.input-general1
+{
+  width: 191px;
+  height: 46px;
+  border-radius: 10px;
+  border: 1px solid #B0B0B0;
+  background: rgba(180, 174, 174, 0.00);
+}
+.input-general2
+{
+  width: 191px;
+  height: 46px;
+  border-radius: 10px;
+  border: 1px solid #B0B0B0;
+  background: rgba(180, 174, 174, 0.00);
+  padding: 2px;
+}
+.pay-input
+{
+  width: 132px;
+  height: 37px;
+  border: none;
+  outline: none;
+   background: rgba(180, 174, 174, 0.00);
+}
+
+.pay-input:hover,
+.pay-input:focus {
+  outline: none;
+  border: none;
+  border-color: #ffffff; /* Change to your desired color */
+  box-shadow: #ffffff; /* Change to your desired shadow */
+}
+
+.pay-input:hover {
+  border-color: #ffffff; /* Change to white on hover */
+}
+
+.pay-input:focus {
+  border-color: #ffffff; /* Change to white on focus */
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0); /* Add a subtle box shadow for focus */
+}
+.span-pay
+{
+  color: #070707;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+height: 37px;
+display: inline-block;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .row-main-3
+{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+  .image-preview1 {
+    width: 150px; /* Adjust width and height as needed */
+    height: 110px;
+}
+.column-3 {
+  width: 160px;
+  height: 120px;
+  margin: auto;
+    margin-top: 10px;
+}
+
+.input-general {
+  width: 266px;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .row-main-3
+  {
+      width: 75%;
+  }
+  
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .row-main-3
+  {
+      width: auto;
+  }
+} 

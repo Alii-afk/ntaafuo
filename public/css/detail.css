@@ -1,0 +1,150 @@
+.card__name_7 {
+    margin-top: 15px;
+    color: #000;
+    font-family: Nokora;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .reveal-btn
+{
+  cursor: grab;
+}
+.card-tag
+{
+  color: #545C45;
+  text-align: center;
+  font-family: Nokora;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.phone-tag
+{
+  color: #545C45;
+text-align: center;
+font-family: Nokora;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.under
+{
+  display: flex;
+}
+.undercard
+{
+  display: block;
+  align-items: center;
+}
+.class-cour-8-det
+{
+    width: 100%;
+}
+.img-respo
+        {
+            object-fit: cover;
+        }
+.grid-container-d {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
+   /* Add some spacing between the columns */
+  background-color: #f5f5f5;
+  font-family: 'Baloo Paaji 2', cursive;
+  padding-bottom: 6rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  gap: 10px;
+}
+.grid-container-det {
+  display: grid;
+ grid-template-columns: 20% 40% 40%;
+   /* Add some spacing between the columns */
+  background-color: #f5f5f5;
+  font-family: 'Baloo Paaji 2', cursive;
+  padding-top: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.grid-item-det {
+  border: none; /* Add borders for visualization */
+  border-radius: 20px;
+}
+
+.grid-item-d {
+  border: none; /* Add borders for visualization */
+  border-radius: 20px;
+}
+.grid-item-d img{
+    border-radius: 20px;
+    width: 100%; /* Make the image fill the width of the container */
+      height: 100%; /* Make the image fill the height of the container */
+      object-fit: cover;
+}
+ @media only screen and (max-width: 1024px) {
+   .grid-container-det {  
+    grid-template-columns: 20% 50% 30%;
+    padding-top: 2rem;
+      padding-left: 2rem;
+    }
+}
+ @media only screen and (max-width: 900px) {
+     
+     .grid-container-d {
+  grid-template-columns: 100%;
+  
+}
+    .grid-container-det {
+        grid-template-columns: 100%;
+        text-align: center;
+        padding-left: 0rem;
+  padding-right: 0rem;
+        }
+        .grid-item-det {
+           text-align: center;
+           margin-bottom: 10px;
+        }
+        .img-respo
+        {
+            margin: auto;
+            margin-bottom: 10px;
+        }
+}
+@media only screen and (max-width: 600px) {
+    .grid-container-det {
+          padding-top: 6rem;
+         padding-left: 1rem;
+  padding-right: 1rem;
+          padding-bottom: 3rem;
+        }
+        .grid-container-d {
+          padding-left: 3rem;
+          padding-right: 3rem;
+          padding-bottom: 6rem;
+}
+}
+@media only screen and (max-width: 425px) {
+    .grid-container-det {
+          padding-top: 6rem;
+         padding-left: 1rem;
+  padding-right: 1rem;
+          padding-bottom: 3rem;
+        }
+        
+}
+@media only screen and (max-width: 375px) {
+    .grid-container-det {
+          padding-top: 6rem;
+         padding-left: 1rem;
+  padding-right: 1rem;
+          padding-bottom: 3rem;
+        }
+        
+}

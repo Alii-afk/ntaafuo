@@ -1,0 +1,95 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+}
+.main
+{
+    margin: auto;
+    max-width: 300px;
+}
+.cors-img
+{
+    border-radius: 20px;
+}
+/* Style for prev and next buttons */
+.cor-prev, .cor-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the buttons */
+  width: 30px; /* Adjust the width to create circular shape */
+  height: 30px; /* Set the height to match the width for a perfect circle */
+  border-radius: 50%; /* Create a circular shape */
+  background-color: white; /* Set the background color to white */
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+  transition: 0.6s ease;
+  user-select: none;
+  opacity: 0; /* Initially hidden */
+  text-align:center;
+  padding: 8px 10px; /* Adjust the padding as needed */
+  text-decoration: none; /* Remove underlines from links, if desired */
+  
+}
+
+/* Show the buttons on hover */
+.slideshow-container:hover .cor-prev, .slideshow-container:hover .cor-next {
+  opacity: 1;
+}
+
+
+/* Position the "next button" to the right */
+.cor-next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.cor-prev:hover, .cor-next:hover {
+  background-color: white;
+}
+
+.dot-div
+{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+   
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #bbb;
+}
+
+/* Fading animation */
+.cor-fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .cor-prev, .cor-next {font-size: 11px}
+}
